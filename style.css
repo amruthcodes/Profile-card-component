@@ -1,0 +1,15 @@
+/* simple css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Simple css reset */
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.bg_top {
+    background-image: url(/images/bg-pattern-top.svg);
+}

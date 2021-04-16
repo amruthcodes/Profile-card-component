@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+    </style>
     <link rel="stylesheet" href="style.css">
     <title>Profile card component</title>
 </head>
 <body>
-    <div class="bg_top">
-        <img src="/images/bg-pattern-top.svg" alt="vector background">
-    </div>
+<main>
     <div class="card_container">
         <div class="card">
             <div class="card_bg">
@@ -23,7 +24,7 @@
             <div class="profile">
                 <div style="display: flex; justify-content: center;">
                     <p>Vector Crest</p>
-                    <p style="padding-left: 0.5rem;">26</p>
+                    <span style="padding-left: 0.5rem; color: hsl(0, 0%, 51%); font-size: 18px;">26</span>
                 </div>
                 <div class="location">
                     <p>London</p>
@@ -31,15 +32,13 @@
             </div>
             <div class="social_metrics">
                 <ul class="social_count">
-                    <li>80K <br> Followers</li>
-                    <li>803K <br> Likes</li>
-                    <li>1.4K <br> Photos</li>
+                    <li>80K <br> <span>Followers</spans> </li>
+                    <li>803K <br> <span>Likes</span> </li>
+                    <li>1.4K <br> <span>Photos</span> </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="bg_bottom">
-        <img src="/images/bg-pattern-bottom.svg" alt="vector background">
-    </div>
+</main>
 </body>
 </html>

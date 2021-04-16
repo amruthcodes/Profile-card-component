@@ -6,15 +6,28 @@
 }
 /* Simple css reset */
 
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap');
-
 body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+
 }
 
-.bg_top {
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+span {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
 
 .card_container {
@@ -26,6 +39,40 @@ body {
 .card {
     text-align: center;
     background-color: #fff;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.card_bg > img{
+    border-radius: 15px 15px 0 0;
+}
+
+.profile_image {
+    position: relative;
+    bottom: 58px;
+}
+
+.profile_image > img {
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+
+.profile {
+    position: relative;
+    bottom: 40px;
+    height: 40px;
+}
+
+.location {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin: 1rem;
+}
+
+.social_metrics{
+    border-top: 1px solid hsl(0, 0%, 86%);
+    padding: 2em 0 1.5em 0;
 }
 
 .social_count {
@@ -35,5 +82,7 @@ body {
 
 li {
     list-style-type: none;
-    padding: 1rem;
+    padding: 0 1.5em;
 }
+
+

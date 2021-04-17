@@ -13,7 +13,7 @@ body {
     color: hsl(229, 23%, 23%);
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: left, right;
+    background-position: top -500px left -700px, bottom -450px right -700px ;
 
 }
 
@@ -41,6 +41,7 @@ span {
     background-color: #fff;
     font-weight: 700;
     border-radius: 15px;
+    box-shadow: 0px 10px 20px -15px hsl(229, 23%, 23%);
 }
 
 .card_bg > img{
@@ -86,3 +87,51 @@ li {
 }
 
 
+@media only screen and (min-width: 530px) {
+    
+    body {
+        background-position: top -500px left -650px, bottom -450px right -650px ;
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    
+    body {
+        background-position: top -500px left -600px, bottom -450px right -600px ;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    
+    body {
+        background-position: top -500px left -550px, bottom -450px right -550px ;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    
+    body {
+        background-position: top -500px left -350px, bottom -450px right -350px ;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    
+    body {
+        background-position: top -500px left -250px, bottom -450px right -250px ;
+    }
+}
+
+@media only screen and (min-width: 1420px) {
+    
+    body {
+        background-position: top -500px left -150px, bottom -450px right -150px ;
+    }
+}
+
+@media only screen and (min-width: 1720px) {
+    
+    body {
+        background-position: top -500px left -20px, bottom -450px right -20px ;
+    }
+}

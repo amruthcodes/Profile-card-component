@@ -26,8 +26,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Screenshot
 
-[Desktop Image](./images/desktop_screen.jpg)
-[Mobile Image](./images/mobile_screen.jpg)
+- [Desktop Image](./images/desktop_screen.jpg)
+- [Mobile Image](./images/mobile_screen.jpg)
 
 
 ### Links
